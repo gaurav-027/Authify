@@ -25,7 +25,7 @@ A simple and secure authentication system built using **Node.js**, **Express**, 
 
  1️⃣ Clone the repository
 
->>> git clone https://github.com/your-username/Authify.git
+>>> https://github.com/gaurav-027/Authify.git
   cd Authify
 
 2️⃣ Install dependencies
