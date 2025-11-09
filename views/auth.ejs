@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication</title>
+    <link rel="stylesheet" href="auth.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="back"></div>
+    <div class="main">
+        <div class="navbar">
+            <div class="nav">
+                <div class="logo">
+                    <h1>AUTHENTICATION</h1>
+                </div>
+                <div class="nav-icons">
+                    <button class="icon-btn theme">🌙</button>
+                    <button class="icon-btn">👤</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="togglebar">
+                <div class="togg">
+                    <div class="side1">
+                        <p>Login</p>
+                    </div>
+                    <div class="side2">
+                        <p>Signup</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contain">
+                <div class="login">
+                    <div class="leftpart">
+                        <div class="desc">
+                            <div class="head">
+                                <p id="text">Welcome Back</p>
+                            </div>
+                            <!-- <div class="social"></div> -->
+                        </div>
+                    </div>
+                    <div class="rightpart">
+                        <div class="details">
+                            <form method="post" action="/exist">
+                                <div class="inputdiv">
+                                    <input type="email" required name="email">
+                                    <label>Email</label>
+                                </div>
+                                <div class="inputdiv">
+                                    <input type="password" required name="password">
+                                    <label for="">Password</label>
+                                </div>
+                                <div class="btn2">
+                                    <div class="buttons">
+                                        <div class="inner"></div>
+                                        <div class="upper">
+                                            <button type="submit" style="border: none; font-size: 25px;">Log in</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="signup">
+                    <div class="leftpart2">
+                        <div class="details2">
+                            <form method="post" action="/create">
+                                <div class="inputdiv">
+                                    <input type="text" required name="username">
+                                    <label>Name</label>
+                                </div>
+                                <div class="inputdiv">
+                                    <input type="email" required name="email">
+                                    <label>Email</label>
+                                </div>
+                                <div class="inputdiv">
+                                    <input type="password" required name="password">
+                                    <label for="">Password</label>
+                                </div>
+                                <div class="btn2">
+                                    <div class="buttons">
+                                        <div class="inner"></div>
+                                        <div class="upper">
+                                            <button type="submit" style="border: none; font-size: 25px;">Sign Up</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="rightpart2">
+                        <div class="desc2">
+                            <div class="head">
+                                <p>Welcome</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="auth.js">
+        
+    </script>
+</body>
+</html>
